@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import './style.css'
 
-function Pokemon() {
+function pokemon() {
   
   return (
     <>
@@ -11,4 +11,4 @@ function Pokemon() {
   )
 }
 
-export default Pokemon
+export default pokemon

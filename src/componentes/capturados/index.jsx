@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import './style.css'
 
-function Capturados() {
+function capturados() {
   
   return (
     <>
@@ -11,4 +11,4 @@ function Capturados() {
   )
 }
 
-export default Capturados
+export default capturados

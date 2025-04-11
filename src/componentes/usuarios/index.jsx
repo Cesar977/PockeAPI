@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import './style.css'
 
-function Usuarios() {
+function usuarios() {
   
   return (
     <>
@@ -11,4 +11,4 @@ function Usuarios() {
   )
 }
 
-export default Usuarios
+export default usuarios

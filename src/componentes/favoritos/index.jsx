@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import './style.css'
 
-function Favoritos() {
+function favoritos() {
   
   return (
     <>
@@ -11,4 +11,4 @@ function Favoritos() {
   )
 }
 
-export default Favoritos
+export default favoritos

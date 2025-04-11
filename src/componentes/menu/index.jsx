@@ -1,7 +1,7 @@
 import "./style.css"
 import { Link } from 'react-router-dom';
 
-function Menu() {
+function menu() {
     return (
         <nav className="c-menu">
           <Link to="/">Home</Link>
@@ -13,4 +13,4 @@ function Menu() {
     )
   }
   
-  export default Menu
+  export default menu
