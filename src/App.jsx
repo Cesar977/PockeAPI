@@ -8,6 +8,7 @@ import Listas from './componentes/listas';
 import Capturados from './componentes/capturados';
 import Favoritos from './componentes/favoritos';
 import Usuarios from './componentes/usuarios';
+import Pokemon from './componentes/pokemon';
 import Detalle from './componentes/detalle';
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
           <Route path="/aleatorios" element={<Aleatorios />} />
           <Route path="/capturados" element={<Capturados />} />
           <Route path="/favoritos" element={<Favoritos />} />
+          <Route path="/pokemon" element={<Pokemon />} />
           <Route path="/detalle/:name" element={<Detalle />} />
+          
         </Routes>
 
       </Router>
