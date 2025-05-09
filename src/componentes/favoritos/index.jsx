@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AppContext } from '../../contexto/contexto';
-import './style.css'; // Asegurate de tener estilos si los estás usando
+import './style.css'; 
 
 function Favoritos() {
   const { favoritos } = useContext(AppContext);
